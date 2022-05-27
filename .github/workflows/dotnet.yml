@@ -65,5 +65,5 @@ jobs:
         scope: resourcegroup 
         subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
         resourceGroupName:  ${{ secrets.AZURE_RG }}
-        template: Infraestrutura/infra.json
+        template: Infraestrutura/iac.json
         deploymentMode: Incremental
